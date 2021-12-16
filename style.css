@@ -1,0 +1,97 @@
+body {
+
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+fieldset#border {
+
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    border: rgb(165, 155, 165);
+    box-shadow: 5px 5px 5px 5px rgb(236, 234, 234);
+}
+
+fieldset#buttons {
+
+    border: none;
+    margin-top: 20px;
+    margin: auto;
+    width: 301px;
+}
+
+div#responsive { 
+
+    border: ridge lightgray 2px;
+    height: 20px;
+    width: 290px;
+    margin: auto;
+    margin-bottom: 16px;
+    margin-top: 10px;
+    text-align: right;
+    padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+button.numbers, button.operators, button.micellaneous  {
+
+    
+    width: 60px;     
+    height: 40px;
+    border: solid lightgray 1px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-left: 10px;
+    font-size: 19px;
+    cursor: pointer;
+    color: rgb(53, 51, 51);
+}
+
+button.numbers, button.micellaneous {
+
+    background-color: #f9f9f9;
+}
+
+button.operators  {
+
+    background-color: #ddd;
+}
+
+button.equal {
+
+    position: absolute;
+    margin-left: 15px;
+    width: 59px;
+    border: solid gray 1px;
+    height: 214px;
+    background-color: #4d90fe;
+    cursor: pointer;
+    color: rgb(53, 51, 51);
+    font-size: 20px;
+}
+
+button.operators:hover {
+
+    border: solid darkgray 1px;
+}
+
+button.numbers:hover {
+
+    border: solid darkgray 1px;
+    background-color: rgb(240, 235, 235);
+}
+
+button.equal:hover {
+
+    border: solid darkgray 1px;
+    background-color: #1f6be7;
+}
+
+button.numbers:active, button.operators:active, button.equal:active {
+
+    font-weight: bold;
+}
